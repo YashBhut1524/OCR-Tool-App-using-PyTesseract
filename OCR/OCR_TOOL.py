@@ -98,8 +98,7 @@ class MainApp(QtWidgets.QMainWindow):
 
     def open_file_dialog(self):
         options = QtWidgets.QFileDialog.Options()
-        file_path, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open Image File", "", "Images (*.png *.jpg *.jpeg)",
-                                                             options=options)
+        file_path, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open Image File", "", "Images (*.png *.jpg *.jpeg)", options=options)
         if file_path:
             self.process_image(file_path)
             QtWidgets.QMessageBox.information(self, "Image Uploaded", "Image successfully uploaded for OCR processing.")
