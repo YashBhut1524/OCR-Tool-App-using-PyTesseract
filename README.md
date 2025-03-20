@@ -60,10 +60,7 @@ Execute the script using:
 python snipping_ocr_tool.py
 ```
 
-### 8. Keybinding
-- Use **Ctrl+Shift+M** to activate the snipping tool.
-
-### 9. Final Steps
+### 8. Final Steps
 - Restart your PC if necessary.
 - Run the OCR script again.
 
