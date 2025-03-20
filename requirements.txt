@@ -1,0 +1,8 @@
+opencv-python
+numpy
+pillow
+pytesseract
+pyperclip
+pyttsx3
+PyQt5
+fpdf

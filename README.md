@@ -1,10 +1,9 @@
 **OCR Tool using Python**  
 
-This project is a simple OCR (Optical Character Recognition) tool built using Python and `pytesseract`. It allows users to extract text from images using three different methods:  
+This project is a simple OCR (Optical Character Recognition) tool built using Python and `pytesseract`. It allows users to extract text from images using two different methods:  
 
-1. **Custom Snipping Tool** – Users can select a specific area of the screen to capture and extract text.  
-2. **Full-Screen Screenshot** – Captures the entire screen and performs OCR on the image.  
-3. **Upload from Device** – Users can upload an image from their local storage for text extraction.  
+1. **Custom Snipping Tool** – Users can select a specific area of the screen to capture and extract text.
+2. **Upload from Device** – Users can upload an image from their local storage for text extraction.  
 
 This tool provides an easy way to recognize and extract text from images efficiently.
 
@@ -38,10 +37,19 @@ This tool provides an easy way to recognize and extract text from images efficie
   ```
 - If installed correctly, it should display the Tesseract version.
 
+### 5. Project Folder Structure
+    
+```
+    OCR-Tool/
+    │── __init__.py          # Makes the folder a package
+    │── OCR_TOOL.py          # Main script for the OCR tool
+    │── requirements.txt        # Required dependencies  
+    │── README.md               # Documentation  
+```
 ### 5. Install Dependencies
 Make sure you have Python installed, then install required dependencies using:
 ```sh
-pip install pytesseract pyperclip pyttsx3 opencv-python numpy pillow PyQt5 fpdf
+  pip install -r requirements.txt
 
 ```
 
@@ -57,13 +65,10 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tess
 ### 7. Run the Snipping Tool
 Execute the script using:
 ```sh
-python snipping_ocr_tool.py
+  python snipping_ocr_tool.py
 ```
 
-### 8. Keybinding
-- Use **Ctrl+Shift+M** to activate the snipping tool.
-
-### 9. Final Steps
+### 8. Final Steps
 - Restart your PC if necessary.
 - Run the OCR script again.
 
