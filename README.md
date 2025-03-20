@@ -41,7 +41,8 @@ This tool provides an easy way to recognize and extract text from images efficie
 ### 5. Install Dependencies
 Make sure you have Python installed, then install required dependencies using:
 ```sh
-pip install -r requirements.txt
+pip install pytesseract pyperclip pyttsx3 opencv-python numpy pillow PyQt5 fpdf
+
 ```
 
 ### 6. Update Python Code for Tesseract Path
